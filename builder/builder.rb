@@ -11,7 +11,7 @@ FILES = [ "101.txt", "102.txt", "103.txt", "104.txt", "105.txt", "106.txt", "107
 CHOSEN = []
 TEST = []
 KEY = []
-
+chosed = []
 
 def randomizer (bank)
 	werk = File.readlines(bank).sample
@@ -21,15 +21,50 @@ def randomizer (bank)
 end
 
 
+##### var is the array of answers only. var[0] is the answer.
+##### Need to locate var[0] in the test file and fetch first letter.
+##### Super broken. not working.
+def Key (var)
+	File.open('Test.txt').each do |line|
+		puts line =~ var
+		puts var
+	end
+end
+
+
 def Test
+	num = 0
 	while CHOSEN.any? do
+		num += 1
 		chosed = CHOSEN.shuffle!.shift  
 		chosed = chosed.split(" | ")
 		question = chosed.shift
-		puts question
-		while chosed.any? do
-			puts "     " + chosed.shuffle!.shift
+		File.open("Test.txt","a") do |f|
+			f.puts(num.to_s + ". " + question)
 		end
+		var = chosed[0]
+		i = 1
+		while chosed.any? do
+			if i == 1
+				File.open("Test.txt","a") do |f|
+					f.puts("     A. " + chosed.shuffle!.shift)
+				end
+			elsif i == 2
+				File.open("Test.txt","a") do |f|
+					f.puts("     B. " + chosed.shuffle!.shift)
+				end			
+			elsif i == 3
+				File.open("Test.txt","a") do |f|
+					f.puts("     C. " + chosed.shuffle!.shift)
+				end			
+			elsif i == 4
+				File.open("Test.txt","a") do |f|
+					f.puts("     D. " + chosed.shuffle!.shift)
+				end			
+			end
+			i += 1
+		end
+		#Key (var)
 	end
 end
 
