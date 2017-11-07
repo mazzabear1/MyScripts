@@ -1,1 +1,4 @@
-Question | Correct | Wrong | Wrong | Wrong
+Use of computer networks and IT infrastructure to attack, deceive, degrade, disrupt, deny, exploit, and defend electronic information is a function of which IO Core Capability? | CNO | MILDEC | OPSEC | EW
+The mission of ASUW is to deny the enemy the effective use of its surface warships and cargo-carrying vessels. | True | False
+The mission of FES is to install, maintain, remove, rehabilitate, upgrade, provide technical assistance and report on CCOP/NPI equipment. | True | False
+_____ conducts non-cooperative network intrusion testing and operational penetration testing of Navy networks. | Navy Red Team | Navy Blue Team | METOC | Army Corps of Engineers

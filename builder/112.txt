@@ -1,1 +1,4 @@
-Question | Correct | Wrong | Wrong | Wrong
+The Fleet Intelligence Office has two subordinate commands and they are ONI and NMCI. | True | False
+What does PIR stand for? | Priority Intelligence Requirement | Personnel Intelligence Rodeo | Property Identity Repossession | Production Information Report
+Intelligence gained through the intercept of foreign communications is: | COMINT | SIGINT | MASINT | HUMINT
+Intelligence derived from the interception and analysis of non-communications emitters (e.g., radar) is? | ELINT | FISINT | COMINT | HUMINT 

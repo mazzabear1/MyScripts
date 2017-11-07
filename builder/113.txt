@@ -1,1 +1,4 @@
-Question | Correct | Wrong | Wrong | Wrong
+Full Duplex is defined as: | Mode in which telecommunications between stations takes place simultaneously in both directions using two separate frequencies. | Mode using a single channel or frequency to exchange information between two or more terminals (Communications is in one direction only). | Mode that has one-way flow of information between terminals, but not simultaneously.  This term must be qualified to show send only (s/o), receive only (r/o), or send or receive (s/r). | Signal characteristics, modes, functions, associations, capabilities, limitations, vulnerabilities, and technology levels.
+Refraction is the bending of electromagnetic waves caused by a change in the density of the medium through which the waves are passing. | True | False
+Technical ELINT (TECHELINT) is signal characteristics, modes, functions, associations, capabilities, limitations, vulnerabilities, and technology levels. | True | False
+Frequency is the distance in space occupied by one cycle of a radio wave at any given instant | False | True
