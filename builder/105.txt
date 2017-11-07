@@ -1,1 +1,5 @@
-Question | Correct | Wrong | Wrong | Wrong
+_____ power that is used in the event that normal power goes out. | Emergency | Primary | secondary | Special
+_____ is an estimate of the amount of money that will be required by a unit to perform its assigned tasks.  REPAIR/REPAIRABLE and CONSUMABLES! | OPTAR | OTAR | CASREP | Unfunded Requirement (UFR)
+_____ is an electrical apparatus that provides emergency power to a load when the input power source fails. | Uninterrupted Power Supply | Hybrid | AA batteries | None of these
+The primary objective of the Navy Ships' Maintenance and Material Management (3-M) system is to manage maintenance and maintenance support in a manner that will ensure maximum equipment readiness | True | False
+Tracking the physical accoutability of personal property, and also providing data to the DON's financial statements for inclusion to the Plant, Property, and Equipment (PP&E) is the responsibility of what system? | Defense Property Accountability System (DPAS) | Maintenance and Material Management (3-M) System | Material Obligation Validation (MOV) | None of these

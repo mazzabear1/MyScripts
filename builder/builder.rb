@@ -61,6 +61,14 @@ def Test
 				File.open("Test.txt","a") do |f|
 					f.puts("     D. " + chosed.shuffle!.shift)
 				end			
+			elsif i == 5
+				File.open("Test.txt","a") do |f|
+					f.puts("     E. " + chosed.shuffle!.shift)
+				end			
+			elsif i == 6
+				File.open("Test.txt","a") do |f|
+					f.puts("     F. " + chosed.shuffle!.shift)
+				end			
 			end
 			i += 1
 		end
@@ -69,7 +77,7 @@ def Test
 end
 
 
-until CHOSEN.size == 6 
+until CHOSEN.size == 10 
 	CHOSEN.clear
 	FILES.each { |file| 5.times { randomizer(file) } }
 end

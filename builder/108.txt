@@ -1,1 +1,4 @@
-Question | Correct | Wrong | Wrong | Wrong
+IPv6 utilizes 4 bytes to express an address.  It has only 32 bits that can be used for its address. | False | True
+A _____ is a malicious program disguised as something benign. | Trojan | CTN | Worm | Router
+This layer acts as the point at which end stations connect to the network devices such as desktop computers and/or printers are found at this layer: | Access | Distribution | Core
+Uses off the shelf protocols, processors and routers to create a robust and flexible networking environment. | ADNS | SHF Terminal | NOVA | CUDIXS

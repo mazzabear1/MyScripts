@@ -1,1 +1,2 @@
-Question | Correct | Wrong | Wrong | Wrong
+The mission of _____ is to coordinate, monitor, and oversee the defense of Navy computer networks and systems and to be responsible for accomplishing Computer Network Defense (CND) missions as assigned by Commander, U.S. Tenth Fleet and Commander, Joint Task Force-Global Network Operations (JTF-GNO). | NCDOC | NETWARCOM | NSA/CSS NTOC | NCTAMS LANT
+A component of the Department of Homeland Security, and operates as both an Armed Force and a Law Enforcement. | United States Coast Guard | United States Marine Corps (USMC) | United States Navy (USN) | United States Coast Guard (USCG)

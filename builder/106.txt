@@ -1,1 +1,5 @@
-Question | Correct | Wrong | Wrong | Wrong
+Who can give the order to initiate emergency destruction? | CO and EAP Officer | CO | SSO | EAP Officer
+A practice Dangerous to Security (PDS) is an incident that if not corrected could lead to a Security Violation. | True | False
+A Commanding Officer can administratively suspend access for how mny days before DONCAF revokes a clearance? | 90 | 120 | 30 | 60
+A _____ is used to create an unpredictable deterrence from possible terrorist attack. | Random Anti-terrorism Measure | Water Barrier | Anti-Virus Software | Spot Checks
+When should a safe combination should be changed? | All of these | As directed by the SSO or other local instructions | Combination has been compromised | When personnel with access have tranferred | When the lock is first installed | None of these
