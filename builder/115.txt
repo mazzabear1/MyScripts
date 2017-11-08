@@ -1,1 +1,4 @@
-Question | Correct | Wrong | Wrong | Wrong
+_____ satellites broadcast navigational information on a continuous basis. | GPS | Sirius/XM | SHF | Tom Tom 
+_____ satellites orbit the Earth at an altitude of approximately 22,300 miles (35,800 km) above the Equator and travel at the same angular velocity as the Earth. | GOES | POES | Russian Space Station | TRMM
+What are the capabilities of the GBS? | Provides high data rate broadcast of data and video information products to military tactical terminals. | Provides flexible, high-capacity communications for the nation's war fighters. | Links ships, mobile units ans shore sites together. | High capacity SHF satellite.
+Astrometry is a natural science that deals with the study of celestial objects ad phenomena that originate outside the Earth's atmosphere. | True | False

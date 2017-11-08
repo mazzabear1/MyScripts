@@ -17,6 +17,7 @@ def randomizer (bank)
 	werk = File.readlines(bank).sample
 	if !CHOSEN.include?(werk) 
 		CHOSEN << werk
+		puts CHOSEN.size
 	end
 end
 
@@ -77,9 +78,10 @@ def Test
 end
 
 
-until CHOSEN.size == 10 
+until CHOSEN.size == 30
 	CHOSEN.clear
-	FILES.each { |file| 5.times { randomizer(file) } }
+	puts "cleared"
+	FILES.each { |file| 2.times { randomizer(file) } }
 end
 
 puts 

@@ -1,1 +1,4 @@
-Question | Correct | Wrong | Wrong | Wrong
+The purpose of the _____ is to conduct background investigations and reinvestigations of persons in national security positions requiring access to classified information under Executive Order 12968. | SF-86 | DD Form 1847-1 | DCID 6/4 | DCID 1/14 | None of these
+What is the minimum DlPT score required for CTIs (E1-E8)? | L2/R2 | L2/R1+ | L1+R2 | L1R1 | None of these
+What is the emergency destruction assigned to cryptologic equipment and SCI material? | Priority one | Priority three | Priority two | Priority four
+Select the procedure(s) for the transmission and handling of Privacy Act information. | All of these | Shred documents which contain PII | Do not release any PII outside of official reasons without the written consent of the individual | Ensure all transmitted PII is transmitted via encrypted email
