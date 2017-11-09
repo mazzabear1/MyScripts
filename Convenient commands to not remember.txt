@@ -1,0 +1,7 @@
+##
+# Powershell One Liners
+##
+
+# Displays the a directory listing based on file extension to include line counts and file names.
+
+	dir -Include *.txt -Recurse | % { $_ | select name, @{n="lines";e={get-content $_ | measure-object -line | select -expa lines } } } | ft -AutoSize
