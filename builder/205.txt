@@ -1,1 +1,5 @@
-205Question | Correct | Wrong | Wrong | Wrong
+_____ is the distance in space occupied by 1 cycle of a radio wave at any given instant. | Wavelength | Cycle | Frequency | Meter
+_____ are radio waves that travel near the surface of the Earth. | Ground wave | Sky wave | Ocean wave | Radio wave
+_____ is the scattering and absorption of energy as it passes through a medium. | Attenuation | Absorption | Reflection | Diffraction
+_____ is the attempt to acquire sensitive information by masquerading as a trustworthy entity in an electronic communication. | Phishing | Trojan | Worm | Social engineering
+_____ A method of bypassing normal authentication, securing unauthorized remote access to a computer, obtaining access to plaintext, and so on, while attempting to remain undetected. | Backdoor | SQL Injection | Matrix | Privilege Escalation

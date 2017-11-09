@@ -78,7 +78,7 @@ def Test
 end
 
 
-until CHOSEN.size == 30
+until CHOSEN.size == 36
 	CHOSEN.clear
 	puts "cleared"
 	FILES.each { |file| 2.times { randomizer(file) } }

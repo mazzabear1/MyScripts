@@ -1,1 +1,4 @@
-203Question | Correct | Wrong | Wrong | Wrong
+Intelligence Oversight training must be conducted how often? | Annually | Quarterly | Semi-annually | Every two years
+The users' organization is responsible for designating a primary and a secondary auditor to review daily the queries made on the interactive raw SIGINT databases. | True | False
+Select the instruction that governs the Intelligence Oversight Program. | SECNAINST 3820.3E | SECNAVINST 5510.30 | NTTP 3-13.2 | SECNAVINST 5211.5E
+Intelligence Oversight reports must be submitted how often? | Quartely | Annually | Semi-annually | Every two years
