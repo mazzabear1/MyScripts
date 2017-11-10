@@ -77,11 +77,15 @@ def Test
 	end
 end
 
-
-until CHOSEN.size == 36
+####
+#### This until block builds the test. to get an even number of questions...
+#### 21 (files) * X (questions from each section) = Y (test size)
+#### For my purposes, I will be aiming for at least 100 questions in the final version.
+####
+until CHOSEN.size == 65
 	CHOSEN.clear
 	puts "cleared"
-	FILES.each { |file| 2.times { randomizer(file) } }
+	FILES.each { |file| 5.times { randomizer(file) } }
 end
 
 puts 

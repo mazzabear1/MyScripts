@@ -1,1 +1,1 @@
-101Question | Correct | Wrong | Wrong | Wrong
+Of the five Risk Assessment Codes listed, which is not an RAC that combines the elements of hazard severity and mishap probability | Minimal risk | Serious risk | Critical risk | Moderate risk

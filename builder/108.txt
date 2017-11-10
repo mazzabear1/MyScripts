@@ -1,4 +1,20 @@
 IPv6 utilizes 4 bytes to express an address.  It has only 32 bits that can be used for its address. | False | True
-A _____ is a malicious program disguised as something benign. | Trojan | CTN | Worm | Router
 This layer acts as the point at which end stations connect to the network devices such as desktop computers and/or printers are found at this layer: | Access | Distribution | Core
 Uses off the shelf protocols, processors and routers to create a robust and flexible networking environment. | ADNS | SHF Terminal | NOVA | CUDIXS
+What type of malicious code is known for its ability to self-replicate across a network independent of user interaction or other programs? | Worm | Virus | Trojan | Backdoor
+Which of the following are devices on the network that a regular user can log in to? | Host/Client | Router/Switch | TV | Hub
+Which of the following is a device that routes traffic between hosts on a single  network utilizing layer two traffic? | Switch | Host | Router | Server
+What is a central access point in which all wireless connections can be made within a limited area? | Wireless Access Point | Wide Area Network | Modem | Bluetooth
+Which layer of the OSI model does HTML function at? | Presentation | Data-Link | Application | Transport
+Which layer of the OSI model does a router work on? | Layer 3 | Layer 7 | Layer 1 | Layer 8
+How many bits are in an IPV4 address? | 32 | 45 | 128 | 64
+What language does the CPU "speak"? | Machine language | Assembly | C++ | English
+Domain Name Service provides a _____ when provided with an IP address. | Domain name | Website | Port | An error
+_____ is the act of discovering hosts and devices on a network. | Network enumeration | Scouting | Exploitation | Lateral movement
+What activity is occurring when you inject a malicious statement into an entry field? | SQL injection | Malware | Exploitation | Keyboard walking
+What is it called when you gain elevated access in an operating system without appropriate credentials? | Privilege escalation | Malware | Lateral movement | Enumeration
+What type of password cracking method utilizes a large list of passwords in an attempt to guess the password? | Dictionairy attack | Rainbow table | Malicious logic | Salted hash
+What is a non-technical method of gaining access to a computer or network by manipulating people to help you? | Social engineering | Phishing | Hacking | Morse code
+What type of malware appears to be a benign program, but is really malicious? | Trojan | Virus | Worm | Malware 
+What object on your person utilizes PKI infrastructure? | Common Access Card | Car keys | Credit card | Password
+How many bits are in an IPV6 address? | 128 | 32 | 64 | 72
