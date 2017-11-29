@@ -82,7 +82,7 @@ end
 #### 21 (files) * X (questions from each section) = Y (test size)
 #### For my purposes, I will be aiming for at least 100 questions in the final version.
 ####
-until CHOSEN.size == 65
+until CHOSEN.size == 70
 	CHOSEN.clear
 	puts "cleared"
 	FILES.each { |file| 5.times { randomizer(file) } }
