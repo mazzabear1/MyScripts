@@ -2,4 +2,4 @@ _____ is used to report incidents that are of national-level interest to the Nat
 Select the six programs of Brilliant on the Basics: | Career Development Boards, Sponsorship, Indoctrination, Recognition Programs, Ombudsman, Mentorship | Command PT Program, DAPA, SAPR, CMEO, Command EIWS program, MWR | STA-21, LDO Program, OCS Program, Blue to Green Program, Flying Warrant Program, Naval Acadamy | None of these
 _____ assists the executive officer in administering educational and advancement programs. | ESO | CSO | CMC | Admin department
 A Command Cyber Readiness Inspection (CCRI) is a 'quick look' methodology for conducting compliance validations or the COCOMs. | True | False
-_____ is used to inform the operational commander, or appropriate higher authority, of incidents not meeting OPREP-3 Navy Blue criteria. | OPREP-3 Navy Unit SITREP | OPREP-3 Command SITREP | Co Endorsed E-mail to ComTENTHFLT | White Pinnacle
+_____ is used to inform the operational commander, or appropriate higher authority, of incidents not meeting OPREP-3 Navy Blue criteria. | OPREP-3 Navy Unit SITREP | OPREP-3 Command SITREP | Co Endorsed E-mail to COMTENTHFLT | White Pinnacle

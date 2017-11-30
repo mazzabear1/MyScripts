@@ -1,4 +1,5 @@
 _____ is known as the Grand Lady of Software and Grandma COBOL? | RADM Grace Hopper | RADM Robin Braun | RADM Marsha Evans | John Walker
-Naval vessels dip the ensign to salute first; they never only answer a salute | False | True 
+Naval vessels dip the ensign to salute first; they never only answer a salute | False | True
 What president formed the Advance Research Projects Agency (ARPA) in response to USSR's launch of the Sputnik? | Dwight D. Eisenhower | James Madison | Lyndon B. Johnson | Harry S. Truman
 Salutes to the American flag are prescribed in U.S. Navy Regulations, Article 1007 | True | False
+The first naval ship was named after an officer called USS Osmond Ingram (DD-255). | False | True
