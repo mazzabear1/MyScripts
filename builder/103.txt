@@ -2,3 +2,12 @@ The mission of _____ is to coordinate, monitor, and oversee the defense of Navy 
 A component of the Department of Homeland Security, and operates as both an Armed Force and a Law Enforcement. | United States Coast Guard | United States Marine Corps (USMC) | United States Navy (USN) | United States Coast Guard (USCG)
 NCTAMS LANT is dedicated and committed to operate and maintain responsive information transfer systems that provide real-time C4I information support to the Atlantic Fleet | True | False
 Who is responsible for analyzing foreign intelligence related to U.S. economic policy and participated with the Department of State in the overt collection of general foreign economic information? | Department of the Treasury (DOT) | Federal Bureau of Investigation (FBI) | National Reconnaissance Office (NRO) | U.S. Army (USA)
+Where is the headquarters for PACOM? | Camp H.M. Smith | Stuggart, Germany | MacDil AFB, Tampa, Florida | Ft George G. Meade
+Where is the headquarters for EUCOM | Stuggart, Germany | Scott AFB, Illinois | Kelley Barracks, Stuggart-Moehringen, Germany | Peterson AFB, Colorado Springs
+Where is the headquarters for JFCOM | Suffolk, Virginia | Camp H.M. Smith | Scott AFB, Illinois | Offutt AFB, Omaha, Nebraska
+Where is the headquarters for SOUTHCOM | Miami, Florida | Peterson AFB, Colorado Springs | Scott AFB, Illinois | Suffolk, Virginia
+Where is the headquarters for NORTHCOM | Peterson AFB, Colorado Springs | Miami, Florida | Stuggart, Germany | Offut AFB, Omaha, Nebraska
+Where is the headquarters for SOCOM | MacDil AFB, Tampa, Florida | Scott AFB, Illinois | Suffolk, Virginia | Ft. George G. Meade, Maryland
+Where is the headquarters for TRANSCOM | Scott AFB, Illinois | Kelly Barracks, Stuggart-Moehringen, Germany | Suffolk, Virginia | Miami, Florida
+Where is the headquarters for AFRICOM | Kelley Barracks, Stuggart-Moehringen, Germany | Scott AFB, Illinois | Camp H.M. Smith, Hawaii | Scott AFB, Omaha, Nebraska
+Where is the headquarters for USCYBERCOM | Ft. George G. Meade, Maryland | Miami, Florida | Scott AFB, Illinois | Suffolk, Virginia
