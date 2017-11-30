@@ -1,3 +1,6 @@
 The process of identifying, quantifying and prioritizing (or ranking) the vulnerabilities in a system are known as: | Vulnerability assessment | LAN assessment | Command assessment | Threat assessment
 _____ is a program designed to protect and defend the Department of Defense's Information, Information Systems and Information Networks that are critical to the department and the armed forces during day-to-day operations and operations in times of crisis. | Information Assurance | 9/11 GI Bill | Freedom of Information Act | Fourth Amendment
 _____ is assurance that information is not disclosed to unauthorized person, processes or devices. | Confidentiality | Non-repudiation | Availability | PKI
+What attribute of IA ensures that data came from the correct sender? | Non-repudiation | Confidentiality | Integrity | Authentication
+Which of the following are computer incidents? | All of the Above | Unsuccessful Activity Attempt | Reconnaissance | Explained Anomoly | Non-Compliance Activity
+_____ is a process that allows an IT manager to balance the operational and economic costs of protective measures. | Risk Managment | Command Financial Planning |  
