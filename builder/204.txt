@@ -1,1 +1,5 @@
-204Question | Correct | Wrong | Wrong | Wrong
+What does "IN" stand for? | Information Need | Intelligence Necessity | Interesting Nonsense | None of these 
+The NIPF prioritizes INs based upon current U.S. National interests. | True | False
+What role does SURREY play in the NSRP? | A means of organizing unresolved INs AND the storage of unresolved IN information until operations can be conducted | A means of organizing unresolved INs | The storage of unresolved IN information until operations can be conducted | A database of everything that has ever existed
+What USSID Series deals with policy? | SP Series | CR Series | 2000 Series | 5000 Series
+What USSID Series pertains to customer relations? | CR Series | 5000 Series | SP Series | 2000 Series
