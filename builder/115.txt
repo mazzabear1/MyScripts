@@ -6,3 +6,8 @@ _____ satellites broadcast navigational information on a continuous basis. | GPS
 _____ satellites orbit the Earth at an altitude of approximately 22,300 miles (35,800 km) above the Equator and travel at the same angular velocity as the Earth. | GOES | POES | Russian Space Station | TRMM
 What are the capabilities of the GBS? | Provides high data rate broadcast of data and video information products to military tactical terminals. | Provides flexible, high-capacity communications for the nation's war fighters. | Links ships, mobile units ans shore sites together. | High capacity SHF satellite.
 Astrology is a natural science that deals with the study of celestial objects ad phenomena that originate outside the Earth's atmosphere. | False | True
+Low Earth Orbit is between 50 - 600 above the Earth's surface. | False | True
+Medium Earth Orbit is 12,000 miles above the Earth's surface. | False | True
+Which satellite orbit slows down at the apogee and speeds up at the perigee? | Highly Eliptical Orbit | Geosynchronous Orbit | Polar Orbit | Apo-Perigee Orbit
+Which satellite orbit remains stationary relative to the Earth's orbit at 19,300 miles above the Earth's surface? | Geosynchronous Orbit | Highly Eliptical Orbit | Polar Orbit | Apo-Perigee Orbit 
+Which satellite orbit allows a satellite to travel around the Earth in a relatively short time, providing the ability to cover the entire Earth in its footprint along the way? | Polar Orbit | Geosynchronous Orbit | Highly Elliptical Orbit | Apo-Perigee Orbit
