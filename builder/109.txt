@@ -2,3 +2,7 @@ _____ is the intentional insertion of EM energy into transmission paths in any m
 Priority messages must be sent in less than 10 minutes. | False | True
 The purpose of Emissions Control (EMCON) is to release the general or specific restrictions placed on electromagnetic radiations for a particular area or areas. | False | True
 _____ provides web conferencing anybody can access instantly and XMPP based instant messaging. | DCO | DMS | VTC | IBS
+Which of the following are used to rapidly deliver AMCROSS messages concerning a death or serious illness? | Red Cross Message | Message Traffic | Email | SIPRNet
+Which of the following is a satellite used to provide worldwide commercial maritime satellite services? | INMARSAT | GPS | GCCS-M | NAVTRACK
+What is the term used to indicate that there may be an intruder on the net? | GINGERBREAD | BEADWINDOW | Switch-Crypt | PUMPERNICKEL
+What is the real-time procedure used to alert circuit operators that an unauthorized disclosure has occurred and whose only proper response is "Roger out."? | BEADWINDOW | GINGERBREAD | PUMPERNICKEL | Switch-Crypt

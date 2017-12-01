@@ -7,10 +7,11 @@
 # search through the bank and match the answer to the
 #
 
-FILES = [ "101.txt", "102.txt", "103.txt", "104.txt", "105.txt", "106.txt", "107.txt", "108.txt", "109.txt", "110.txt", "111.txt", "112.txt", "113.txt", "114.txt", "115.txt", "201.txt", "202.txt", "203.txt", "204.txt", "205.txt", "206.txt", ]
+FILES = [ "101.txt", "102.txt", "103.txt", "104.txt", "105.txt", "106.txt",
+	"107.txt", 	"108.txt", "109.txt", "110.txt", "111.txt", "112.txt", "113.txt",
+	"114.txt", "115.txt", 	"201.txt", "202.txt", "203.txt", "204.txt", "205.txt",
+	"206.txt", ]
 CHOSEN = []
-TEST = []
-KEY = []
 chosed = []
 
 def randomizer (bank)
@@ -21,51 +22,93 @@ def randomizer (bank)
 	end
 end
 
-
-##### var is the array of answers only. var[0] is the answer.
-##### Need to locate var[0] in the test file and fetch first letter.
-##### Super broken. not working.
-def Key ()
-
+def Key (question_number, letter)
+	File.open("Key.txt","a") do |g|
+		g.puts(question_number.to_s + ". " + letter)
+	end
 end
 
-##################### get random, fiddle with it, shift it. 
 def Test
 	question_number = 0
+
 	while CHOSEN.any? do
+
 		question_number += 1
 		chosed = CHOSEN.shuffle!.shift
 		chosed = chosed.split(" | ")
 		question = chosed.shift
+
+		# Writing the question
 		File.open("Test.txt","a") do |f|
 			f.puts(question_number.to_s + ". " + question)
 		end
+
 		i = 1
+
+		# Writing the answer options in random order
 		while chosed.any? do
+			correct = chosed[0]
+
 			if i == 1
 				File.open("Test.txt","a") do |f|
-					f.puts("     A. " + chosed.shuffle!.shift)
+					current = chosed.shuffle!.shift
+					f.puts("     A. " + current.to_s)
+					if current == correct
+						letter = "A"
+						Key(question_number, letter)
+					end
 				end
+
 			elsif i == 2
 				File.open("Test.txt","a") do |f|
-					f.puts("     B. " + chosed.shuffle!.shift)
+					current = chosed.shuffle!.shift
+					f.puts("     B. " + current.to_s)
+					if current == correct
+						letter = "B"
+						Key(question_number, letter)
+					end
 				end
+
 			elsif i == 3
 				File.open("Test.txt","a") do |f|
-					f.puts("     C. " + chosed.shuffle!.shift)
+					current = chosed.shuffle!.shift
+					f.puts("     C. " + current.to_s)
+					if current == correct
+						letter = "C"
+						Key(question_number, letter)
+					end
 				end
+
 			elsif i == 4
 				File.open("Test.txt","a") do |f|
-					f.puts("     D. " + chosed.shuffle!.shift)
+					current = chosed.shuffle!.shift
+					f.puts("     D. " + current.to_s)
+					if current == correct
+						letter = "D"
+						Key(question_number, letter)
+					end
 				end
+
 			elsif i == 5
 				File.open("Test.txt","a") do |f|
-					f.puts("     E. " + chosed.shuffle!.shift)
+					current = chosed.shuffle!.shift
+					f.puts("     E. " + current.to_s)
+					if current == correct
+						letter = "E"
+						Key(question_number, letter)
+					end
 				end
+
 			elsif i == 6
 				File.open("Test.txt","a") do |f|
-					f.puts("     F. " + chosed.shuffle!.shift)
+					current = chosed.shuffle!.shift
+					f.puts("     F. " + current.to_s)
+					if current == correct
+						letter = "F"
+						Key(question_number, letter)
+					end
 				end
+
 			end
 			i += 1
 		end
@@ -77,7 +120,7 @@ end
 #### 21 (files) * X (questions from each section) = Y (test size)
 #### For my purposes, I will be aiming for at least 100 questions in the final version.
 ####
-until CHOSEN.size == 70
+until CHOSEN.size == 80
 	CHOSEN.clear
 	puts "cleared"
 	FILES.each { |file| 5.times { randomizer(file) } }
