@@ -1,5 +1,7 @@
 #!/usr/bin/env ruby
 
+require 'SecureRandom'
+
 #
 # This script will take a bank of questions (the array FILES) and form them into
 # a multiple choice test with equal weight on each bank of questions.
@@ -11,102 +13,100 @@ FILES = [ "101.txt", "102.txt", "103.txt", "104.txt", "105.txt", "106.txt",
 	"107.txt", 	"108.txt", "109.txt", "110.txt", "111.txt", "112.txt", "113.txt",
 	"114.txt", "115.txt", 	"201.txt", "202.txt", "203.txt", "204.txt", "205.txt",
 	"206.txt", ]
-CHOSEN = []
-chosed = []
+ALL_QUESTIONS = []
+current_question = []
+
+
+# Deletes any existing tests' or answer keys' contents, and then sets up the format.
+def Prep
+
+	if ( File.exist?("Test.txt") )
+		File.open("Key.txt", "w") { |thing| thing.truncate(0) }
+	end
+	if ( File.exist?("Key.txt") )
+		File.open("Test.txt", "w") { |thing| thing.truncate(0) }
+	end
+	
+	version = SecureRandom.hex(10)
+
+	File.open("Test.txt","a") do |thing|
+		thing.puts("Name: ")
+		thing.puts("Test Version: " + version.to_s)
+		thing.puts
+		thing.puts
+	end
+
+	File.open("Key.txt","a") do |thing|
+		thing.puts("Key for test version: " + version.to_s)
+		thing.puts
+		thing.puts
+	end
+
+end
 
 def randomizer (bank)
 	werk = File.readlines(bank).sample
-	if !CHOSEN.include?(werk)
-		CHOSEN << werk
-		puts CHOSEN.size
-	end
-end
-
-def Key (question_number, letter)
-	File.open("Key.txt","a") do |g|
-		g.puts(question_number.to_s + ". " + letter)
+	if !ALL_QUESTIONS.include?(werk)
+		ALL_QUESTIONS << werk
+		puts ALL_QUESTIONS.size
 	end
 end
 
 def Test
 	question_number = 0
 
-	while CHOSEN.any? do
+	while ALL_QUESTIONS.any? do
 
 		question_number += 1
-		chosed = CHOSEN.shuffle!.shift
-		chosed = chosed.split(" | ")
-		question = chosed.shift
+		current_question = ALL_QUESTIONS.shuffle!.shift
+		current_question = current_question.split(" | ")
+		question = current_question.shift
 
 		# Writing the question
-		File.open("Test.txt","a") do |f|
-			f.puts(question_number.to_s + ". " + question)
+		File.open("Test.txt","a") do |thing|
+			thing.puts(" ")
+			thing.puts(question_number.to_s + ". " + question)
 		end
 
 		i = 1
 
 		# Writing the answer options in random order
-		while chosed.any? do
-			correct = chosed[0]
+		while current_question.any? do
 
 			if i == 1
-				File.open("Test.txt","a") do |f|
-					current = chosed.shuffle!.shift
-					f.puts("     A. " + current.to_s)
-					if current == correct
-						letter = "A"
-						Key(question_number, letter)
-					end
+				File.open("Test.txt","a") do |thing|
+					current_anwer = current_question.shuffle!.shift
+					thing.puts("     A. " + current_anwer.to_s)
 				end
 
 			elsif i == 2
 				File.open("Test.txt","a") do |f|
-					current = chosed.shuffle!.shift
-					f.puts("     B. " + current.to_s)
-					if current == correct
-						letter = "B"
-						Key(question_number, letter)
-					end
+					current_anwer = current_question.shuffle!.shift
+					f.puts("     B. " + current_anwer.to_s)
 				end
 
 			elsif i == 3
 				File.open("Test.txt","a") do |f|
-					current = chosed.shuffle!.shift
-					f.puts("     C. " + current.to_s)
-					if current == correct
-						letter = "C"
-						Key(question_number, letter)
-					end
+					current_anwer = current_question.shuffle!.shift
+					f.puts("     C. " + current_anwer.to_s)
 				end
 
 			elsif i == 4
 				File.open("Test.txt","a") do |f|
-					current = chosed.shuffle!.shift
-					f.puts("     D. " + current.to_s)
-					if current == correct
-						letter = "D"
-						Key(question_number, letter)
-					end
+					current_anwer = current_question.shuffle!.shift
+					f.puts("     D. " + current_anwer.to_s)
 				end
 
 			elsif i == 5
 				File.open("Test.txt","a") do |f|
-					current = chosed.shuffle!.shift
-					f.puts("     E. " + current.to_s)
-					if current == correct
-						letter = "E"
-						Key(question_number, letter)
-					end
+					current_anwer = current_question.shuffle!.shift
+					f.puts("     E. " + current_anwer.to_s)
 				end
 
 			elsif i == 6
 				File.open("Test.txt","a") do |f|
-					current = chosed.shuffle!.shift
-					f.puts("     F. " + current.to_s)
-					if current == correct
-						letter = "F"
-						Key(question_number, letter)
-					end
+					current_anwer = current_question.shuffle!.shift
+					f.puts("     F. " + current_anwer.to_s)
 				end
 
 			end
@@ -120,11 +120,11 @@ end
 #### 21 (files) * X (questions from each section) = Y (test size)
 #### For my purposes, I will be aiming for at least 100 questions in the final version.
 ####
-until CHOSEN.size == 80
-	CHOSEN.clear
-	puts "cleared"
-	FILES.each { |file| 5.times { randomizer(file) } }
+until ALL_QUESTIONS.size == 100
+	ALL_QUESTIONS.clear
+	puts "ALL_QUESTIONS cleared"
+	FILES.each { |file| 7.times { randomizer(file) } }
 end
 
-puts
+Prep()
 Test()
