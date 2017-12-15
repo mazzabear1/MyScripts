@@ -3,7 +3,7 @@ The users' organization is responsible for designating a primary and a secondary
 Select the instruction that governs the Intelligence Oversight Program. | SECNAINST 3820.3E | SECNAVINST 5510.30 | NTTP 3-13.2 | SECNAVINST 5211.5E
 Intelligence Oversight reports must be submitted how often? | Quartely | Annually | Semi-annually | Every two years
 How often should Intelligence Oversight training be conducted? | Annually | Monthly | Weekly | Quarterly
-What is the purpose of USSID SP0018? | To define a U.S. person | To define the Foreign Inelligence Surveillance Act (FISA) | To list all foreign countries
+What is the purpose of USSID SP0018? | Prescribes safeguards to protect U.S. Persons | To define a U.S. person | To define the Foreign Inelligence Surveillance Act (FISA) | To list all foreign countries
 What is the purpose of USSID SP00018 Annex A? | Defining legal conduct of electronic surveillance pursuant to the Foreign Intelligence Surveillance Act (FISA) | To define a U.S. Person | To define a foreign country
 How often must auditors review queries made in Raw Traffic Databases? | Daily | Weekly | Monthly | Bi-weekly
 What publications govern Intelligence Oversight? | All of these | EO 12333 | DOD 5240.1-R | SECNAVINST 3820.3E 
