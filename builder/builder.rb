@@ -26,7 +26,7 @@ def Prep
 	if ( File.exist?("Key.txt") )
 		File.open("Test.txt", "w") { |thing| thing.truncate(0) }
 	end
-	
+
 	version = SecureRandom.hex(10)
 
 	File.open("Test.txt","a") do |thing|
@@ -44,6 +44,7 @@ def Prep
 
 end
 
+
 def randomizer (bank)
 	werk = File.readlines(bank).sample
 	if !ALL_QUESTIONS.include?(werk)
@@ -51,6 +52,7 @@ def randomizer (bank)
 		puts ALL_QUESTIONS.size
 	end
 end
+
 
 def Test
 	question_number = 0
@@ -61,6 +63,7 @@ def Test
 		current_question = ALL_QUESTIONS.shuffle!.shift
 		current_question = current_question.split(" | ")
 		question = current_question.shift
+		correct = current_question[0]
 
 		# Writing the question
 		File.open("Test.txt","a") do |thing|
@@ -72,41 +75,72 @@ def Test
 
 		# Writing the answer options in random order
 		while current_question.any? do
+			current_answer = []
 
 			if i == 1
 				File.open("Test.txt","a") do |thing|
-					current_anwer = current_question.shuffle!.shift
-					thing.puts("     A. " + current_anwer.to_s)
+					current_answer = current_question.shuffle!.shift
+					thing.puts("     A. " + current_answer.to_s)
+				end
+				if correct.to_s == current_answer.to_s
+					File.open("Key.txt","a") do |key|
+						key.puts(question_number.to_s + ". A")
+					end
 				end
 
 			elsif i == 2
-				File.open("Test.txt","a") do |f|
-					current_anwer = current_question.shuffle!.shift
-					f.puts("     B. " + current_anwer.to_s)
+				File.open("Test.txt","a") do |thing|
+					current_answer = current_question.shuffle!.shift
+					thing.puts("     B. " + current_answer.to_s)
+				end
+				if correct.to_s == current_answer.to_s
+					File.open("Key.txt","a") do |key|
+						key.puts(question_number.to_s + ". A")
+					end
 				end
 
 			elsif i == 3
-				File.open("Test.txt","a") do |f|
-					current_anwer = current_question.shuffle!.shift
-					f.puts("     C. " + current_anwer.to_s)
+				File.open("Test.txt","a") do |thing|
+					current_answer = current_question.shuffle!.shift
+					thing.puts("     C. " + current_answer.to_s)
+				end
+				if correct.to_s == current_answer.to_s
+					File.open("Key.txt","a") do |key|
+						key.puts(question_number.to_s + ". A")
+					end
 				end
 
 			elsif i == 4
-				File.open("Test.txt","a") do |f|
-					current_anwer = current_question.shuffle!.shift
-					f.puts("     D. " + current_anwer.to_s)
+				File.open("Test.txt","a") do |thing|
+					current_answer = current_question.shuffle!.shift
+					thing.puts("     D. " + current_answer.to_s)
+				end
+				if correct.to_s == current_answer.to_s
+					File.open("Key.txt","a") do |key|
+						key.puts(question_number.to_s + ". D")
+					end
 				end
 
 			elsif i == 5
-				File.open("Test.txt","a") do |f|
-					current_anwer = current_question.shuffle!.shift
-					f.puts("     E. " + current_anwer.to_s)
+				File.open("Test.txt","a") do |thing|
+					current_answer = current_question.shuffle!.shift
+					thing.puts("     E. " + current_answer.to_s)
+				end
+				if correct.to_s == current_answer.to_s
+					File.open("Key.txt","a") do |key|
+						key.puts(question_number.to_s + ". E")
+					end
 				end
 
 			elsif i == 6
-				File.open("Test.txt","a") do |f|
-					current_anwer = current_question.shuffle!.shift
-					f.puts("     F. " + current_anwer.to_s)
+				File.open("Test.txt","a") do |thing|
+					current_answer = current_question.shuffle!.shift
+					thing.puts("     F. " + current_answer.to_s)
+				end
+				if correct.to_s == current_answer.to_s
+					File.open("Key.txt","a") do |key|
+						key.puts(question_number.to_s + ". F")
+					end
 				end
 
 			end
