@@ -14,29 +14,30 @@ FILES = [ "101.txt", "102.txt", "103.txt", "104.txt", "105.txt", "106.txt",
 	"114.txt", "115.txt", 	"201.txt", "202.txt", "203.txt", "204.txt", "205.txt",
 	"206.txt", ]
 ALL_QUESTIONS = []
+EXTRA_QUESTIONS = []
 current_question = []
 
 
 # Deletes any existing tests' or answer keys' contents, and then sets up the format.
 def Prep
 
-	if ( File.exist?("Test.txt") )
-		File.open("Key.txt", "w") { |thing| thing.truncate(0) }
+	if ( File.exist?("EIWS_Final_Test.txt") )
+		File.open("Answer_Key.txt", "w") { |thing| thing.truncate(0) }
 	end
-	if ( File.exist?("Key.txt") )
-		File.open("Test.txt", "w") { |thing| thing.truncate(0) }
+	if ( File.exist?("Answer_Key.txt") )
+		File.open("EIWS_Final_Test.txt", "w") { |thing| thing.truncate(0) }
 	end
 
 	version = SecureRandom.hex(10)
 
-	File.open("Test.txt","a") do |thing|
+	File.open("EIWS_Final_Test.txt","a") do |thing|
 		thing.puts("Name: ")
 		thing.puts("Test Version: " + version.to_s)
 		thing.puts
 		thing.puts
 	end
 
-	File.open("Key.txt","a") do |thing|
+	File.open("Answer_Key.txt","a") do |thing|
 		thing.puts("Key for test version: " + version.to_s)
 		thing.puts
 		thing.puts
@@ -66,7 +67,7 @@ def Test
 		correct = current_question[0]
 
 		# Writing the question
-		File.open("Test.txt","a") do |thing|
+		File.open("EIWS_Final_Test.txt","a") do |thing|
 			thing.puts(" ")
 			thing.puts(question_number.to_s + ". " + question)
 		end
@@ -78,67 +79,67 @@ def Test
 			current_answer = []
 
 			if i == 1
-				File.open("Test.txt","a") do |thing|
+				File.open("EIWS_Final_Test.txt","a") do |thing|
 					current_answer = current_question.shuffle!.shift
 					thing.puts("     A. " + current_answer.to_s)
 				end
 				if correct.to_s == current_answer.to_s
-					File.open("Key.txt","a") do |key|
+					File.open("Answer_Key.txt","a") do |key|
 						key.puts(question_number.to_s + ". A")
 					end
 				end
 
 			elsif i == 2
-				File.open("Test.txt","a") do |thing|
+				File.open("EIWS_Final_Test.txt","a") do |thing|
 					current_answer = current_question.shuffle!.shift
 					thing.puts("     B. " + current_answer.to_s)
 				end
 				if correct.to_s == current_answer.to_s
-					File.open("Key.txt","a") do |key|
-						key.puts(question_number.to_s + ". A")
+					File.open("Answer_Key.txt","a") do |key|
+						key.puts(question_number.to_s + ". B")
 					end
 				end
 
 			elsif i == 3
-				File.open("Test.txt","a") do |thing|
+				File.open("EIWS_Final_Test.txt","a") do |thing|
 					current_answer = current_question.shuffle!.shift
 					thing.puts("     C. " + current_answer.to_s)
 				end
 				if correct.to_s == current_answer.to_s
-					File.open("Key.txt","a") do |key|
-						key.puts(question_number.to_s + ". A")
+					File.open("Answer_Key.txt","a") do |key|
+						key.puts(question_number.to_s + ". C")
 					end
 				end
 
 			elsif i == 4
-				File.open("Test.txt","a") do |thing|
+				File.open("EIWS_Final_Test.txt","a") do |thing|
 					current_answer = current_question.shuffle!.shift
 					thing.puts("     D. " + current_answer.to_s)
 				end
 				if correct.to_s == current_answer.to_s
-					File.open("Key.txt","a") do |key|
+					File.open("Answer_Key.txt","a") do |key|
 						key.puts(question_number.to_s + ". D")
 					end
 				end
 
 			elsif i == 5
-				File.open("Test.txt","a") do |thing|
+				File.open("EIWS_Final_Test.txt","a") do |thing|
 					current_answer = current_question.shuffle!.shift
 					thing.puts("     E. " + current_answer.to_s)
 				end
 				if correct.to_s == current_answer.to_s
-					File.open("Key.txt","a") do |key|
+					File.open("Answer_Key.txt","a") do |key|
 						key.puts(question_number.to_s + ". E")
 					end
 				end
 
 			elsif i == 6
-				File.open("Test.txt","a") do |thing|
+				File.open("EIWS_Final_Test.txt","a") do |thing|
 					current_answer = current_question.shuffle!.shift
 					thing.puts("     F. " + current_answer.to_s)
 				end
 				if correct.to_s == current_answer.to_s
-					File.open("Key.txt","a") do |key|
+					File.open("Answer_Key.txt","a") do |key|
 						key.puts(question_number.to_s + ". F")
 					end
 				end
@@ -148,6 +149,27 @@ def Test
 		end
 	end
 end
+
+
+def Extra
+	extra = File.readlines("Extra_Credit.txt").sample
+	if !EXTRA_QUESTIONS.include?(extra)
+		EXTRA_QUESTIONS << extra
+		puts EXTRA_QUESTIONS.size
+	end
+	while EXTRA_QUESTIONS.any? do
+		current_question = EXTRA_QUESTIONS.shuffle!.shift
+		File.open("EIWS_Final_Test.txt","a") do |thing|
+			thing.puts("")
+			thing.puts("")
+			thing.puts(current_question)
+		end
+	end
+end
+
+
+
+
 
 ####
 #### This until block builds the test. to get an even number of questions...
@@ -162,3 +184,4 @@ end
 
 Prep()
 Test()
+Extra()
