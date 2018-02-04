@@ -50,7 +50,6 @@ def randomizer (bank)
 	werk = File.readlines(bank).sample
 	if !ALL_QUESTIONS.include?(werk)
 		ALL_QUESTIONS << werk
-		puts ALL_QUESTIONS.size
 	end
 end
 
@@ -152,36 +151,61 @@ end
 
 
 def Extra
-	extra = File.readlines("Extra_Credit.txt").sample
-	if !EXTRA_QUESTIONS.include?(extra)
-		EXTRA_QUESTIONS << extra
-		puts EXTRA_QUESTIONS.size
+	#Preparing the extra credit array
+	until EXTRA_QUESTIONS.size == 3
+		extra = File.readlines("Extra_Credit.txt").sample
+		if !EXTRA_QUESTIONS.include?(extra)
+			EXTRA_QUESTIONS << extra
+		end
+	end
+	#Padding the test with spaces and adding header
+	File.open("EIWS_Final_Test.txt","a") do |thing|
+		thing.puts(" ")
+		thing.puts(" ")
+		thing.puts("**Extra Credit**")
+		thing.puts(" ")
 	end
 	while EXTRA_QUESTIONS.any? do
 		current_question = EXTRA_QUESTIONS.shuffle!.shift
 		File.open("EIWS_Final_Test.txt","a") do |thing|
-			thing.puts("")
-			thing.puts("")
-			thing.puts(current_question)
+ 			thing.puts(current_question)
+			thing.puts(" ")
+			thing.puts(" ")
 		end
 	end
 end
 
 
-
-
-
 ####
-#### This until block builds the test. to get an even number of questions...
+#### This until block builds the test. to get the right number of questions...
 #### 21 (files) * X (questions from each section) = Y (test size)
-#### For my purposes, I will be aiming for at least 100 questions in the final version.
+#### For my purposes, there will be 100 questions.
 ####
+puts " "
+puts "Creating custom test..."
+sleep 1
+puts " "
+puts "Not random enough, yet..."
+sleep 1
+
 until ALL_QUESTIONS.size == 100
 	ALL_QUESTIONS.clear
-	puts "ALL_QUESTIONS cleared"
 	FILES.each { |file| 7.times { randomizer(file) } }
 end
 
+puts " "
+puts "Optimal randomness achieved!"
+sleep 1
+
 Prep()
 Test()
+
+puts " "
+puts "Adding extra credit... and maybe a cat."
+sleep 1
+
+puts " "
+puts "Your custom test is a cat."
+
+
 Extra()
