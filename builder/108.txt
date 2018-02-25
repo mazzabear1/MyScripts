@@ -16,5 +16,5 @@ What is it called when you gain elevated access in an operating system without a
 What type of password cracking method utilizes a large list of passwords in an attempt to guess the password? | Dictionary attack | Rainbow table | Malicious logic | Salted hash
 What is a non-technical method of gaining access to a computer or network by manipulating people to help you? | Social engineering | Phishing | Hacking | Morse code
 What type of malware appears to be a benign program, but is really malicious? | Trojan | Virus | Worm | Malware
-What object on your person utilizes PKI infrastructure? | Common Access Card | Car keys | Credit card | Password
+What object on your person utilizes Private Key Infrastructure? | Common Access Card | Car keys | Credit card | Password
 How many bits are in an IPV6 address? | 128 | 32 | 64 | 72

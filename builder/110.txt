@@ -1,11 +1,11 @@
 Use of computer networks and IT infrastructure to attack, deceive, degrade, disrupt, deny, exploit, and defend electronic information is a function of which IO Core Capability? | CNO | MILDEC | OPSEC | EW
-The mission of ASUW is to deny the enemy the effective use of its surface warships and cargo-carrying vessels. | True | False
-The mission of FES is to install, maintain, remove, rehabilitate, upgrade, provide technical assistance and report on CCOP/NPI equipment. | True | False
+The mission of Anti-surface Warfare is to deny the enemy the effective use of its surface warships and cargo-carrying vessels. | True | False
+The mission of Fleet Electronics Support is to install, maintain, remove, rehabilitate, upgrade, provide technical assistance and report on CCOP/NPI equipment. | True | False
 _____ conducts non-cooperative network intrusion testing and operational penetration testing of Navy networks. | Navy Red Team | Navy Blue Team | METOC | Army Corps of Engineers
-Which of the following warfare areas involves the destruction or neutralization of enemy submarines? | ASW | NSW | IW | ASUW
-Which of the following warfare areas involves the destruction or neutralization of enemy surface combatants and merchant ships? | ASUW | ASW | STW | NSW
-Which of the following warfare areas involves the destruction or reduction of an enemy's air and missile threat? | AD | NSW | STW | ASW
-Which of the following warfare areas involves the action taken to achieve information superiority over the adversary? | IW | AD | NSW | ASUW
-Which of the following warfare areas involves the destruction or neutralization of enemy land-based targets or nuclear missiles? | STW | IW | AD | NSW
-Which of the following warfare areas that conducts operations in the coastal, riverine, and maritime environments? | NSW | STW | ASW | AD
+Which of the following warfare areas involves the destruction or neutralization of enemy submarines? | Antisubmarine Warfare | Naval Special Warfare | Information Warfare | Anti-surface Warfare
+Which of the following warfare areas involves the destruction or neutralization of enemy surface combatants and merchant ships? | Anti-surface Warfare | Antisubmarine Warfare | Strike Warfare | Naval Special Warfare
+Which of the following warfare areas involves the destruction or reduction of an enemy's air and missile threat? | Air Defense | Naval Special Warfare | Strike Warfare | Antisubmarine Warfare
+Which of the following warfare areas involves the action taken to achieve information superiority over the adversary? | Information Warfare | Air Defense | Naval Special Warfare | Anti-surface Warfare
+Which of the following warfare areas involves the destruction or neutralization of enemy land-based targets or nuclear missiles? | Strike Warfare | Information Warfare | Air Defense | Naval Special Warfare
+Which of the following warfare areas that conducts operations in the coastal, riverine, and maritime environments? | Naval Special Warfare | Strike Warfare | Antisubmarine Warfare | Air Defense
 USC Title 10 outlines the role of War and National Defense. | False | True

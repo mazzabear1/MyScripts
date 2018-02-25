@@ -1,8 +1,8 @@
 What is the precedence of a Flash message? | (Z) - 10 minutes or less | (O) - 30 minutes | (P) - 3 hours | (W) - Immediate
 What is time sensitive tactical data, released in a timely manner? | KLEIGLIGHT | WRANGLER | SEALINK | INTELINK
-Which of the following is the principal reporting vehicle used by the United States SIGINT System (USSS) to keep NSA, tactical commanders and national, theater, local, and tactical-level non-SIGINT organizations advised of the status of continuing or potential threats and other events of high interest? | TACREP | TACELINT | IGRAM | STRUM
-What is the general-purpose reporting vehicle for ollection that covers a 24 hour period? | STRUM | STI | DAG | Activation/Deactivation message
-What is the two character designator assigned by NSA to identify a specific SIGINT producer? | Producer Designator Diagraph | SIGAD | AIG | DAG
-What is used for SCI correspondence? | Special Intelligence Plain Language Address | Routing indicators | GENSER Plain Language Address | DF Station Identifaction
-What is DOI-101? | Assignment and usage of DSSCS Address Groups (DAG) | Operating Instruction Routing Indicators | Operating procedures and practices applicable to Special Security | Special Intelligence Plain Language Address 
-What is DOI-103? | Operating procedures and practices applicable to Special Security | Assignment and usage of DSSCS Address Groups (DAG) | Operating Instruction Routing Indicators | Special Intelligence Plain Language Address 
+Which of the following is the principal reporting vehicle used by the United States SIGINT System to keep NSA, tactical commanders and national, theater, local, and tactical-level non-SIGINT organizations advised of the status of continuing or potential threats and other events of high interest? | TACREP | TACELINT | IGRAM | STRUM
+What is the general-purpose reporting vehicle for collection that covers a 24 hour period? | STRUM | STI | DAG | Activation/Deactivation message
+What is the two-character designator assigned by NSA to identify a specific SIGINT producer? | Producer Designator Diagraph | SIGAD | AIG | DAG
+What is used for SCI correspondence? | Special Intelligence Plain Language Address | Routing indicators | GENSER Plain Language Address | DF Station Identification
+What is DOI-101? | Assignment and usage of DSSCS Address Groups | Operating Instruction Routing Indicators | Operating procedures and practices applicable to Special Security | Special Intelligence Plain Language Address
+What is DOI-103? | Operating procedures and practices applicable to Special Security | Assignment and usage of DSSCS Address Groups | Operating Instruction Routing Indicators | Special Intelligence Plain Language Address

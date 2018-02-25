@@ -1,4 +1,4 @@
-_____ is the intentional insertion of EM energy into transmission paths in any manner, with the objective of deceiving operators or causing confusion. | Detection | Transmission | Intrusion | DOS Attack
+_____ is the intentional insertion of electromagnetic energy into transmission paths in any manner, with the objective of deceiving operators or causing confusion. | Detection | Transmission | Intrusion | Denial of Service Attack
 Priority messages must be sent in less than 10 minutes. | False | True
 The purpose of Emissions Control (EMCON) is to release the general or specific restrictions placed on electromagnetic radiations for a particular area or areas. | False | True
 _____ provides web conferencing anybody can access instantly and XMPP based instant messaging. | DCO | DMS | VTC | IBS

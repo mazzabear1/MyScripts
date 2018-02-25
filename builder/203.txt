@@ -1,9 +1,9 @@
 Intelligence Oversight training must be conducted how often? | Annually | Quarterly | Semi-annually | Every two years
 The users' organization is responsible for designating a primary and a secondary auditor to review daily the queries made on the interactive raw SIGINT databases. | True | False
-Select the instruction that governs the Intelligence Oversight Program. | SECNAINST 3820.3E | SECNAVINST 5510.30 | NTTP 3-13.2 | SECNAVINST 5211.5E
-Intelligence Oversight reports must be submitted how often? | Quartely | Annually | Semi-annually | Every two years
+Select the instruction that governs the Intelligence Oversight Program. | SECNAVINST 3820.3E | SECNAVINST 5510.30 | NTTP 3-13.2 | SECNAVINST 5211.5E
+Intelligence Oversight reports must be submitted how often? | Quarterly | Annually | Semi-annually | Every two years
 How often should Intelligence Oversight training be conducted? | Annually | Monthly | Weekly | Quarterly
-What is the purpose of USSID SP0018? | Prescribes safeguards to protect U.S. Persons | To define a U.S. person | To define the Foreign Inelligence Surveillance Act (FISA) | To list all foreign countries
-What is the purpose of USSID SP00018 Annex A? | Defining legal conduct of electronic surveillance pursuant to the Foreign Intelligence Surveillance Act (FISA) | To define a U.S. Person | To define a foreign country
+What is the purpose of USSID SP0018? | Prescribes safeguards to protect U.S. Persons | To define a U.S. person | To define the Foreign Intelligence Surveillance Act | To list all foreign countries
+What is the purpose of USSID SP00018 Annex A? | Defining legal conduct of electronic surveillance pursuant to the Foreign Intelligence Surveillance Act | To define a U.S. Person | To define a foreign country
 How often must auditors review queries made in Raw Traffic Databases? | Daily | Weekly | Monthly | Bi-weekly
-A U.S. person is any peson with legal citizenship and protected by the Constitution of the United States. | True | False
+A U.S. person is any person with legal citizenship and protected by the Constitution of the United States. | True | False

@@ -1,5 +1,5 @@
-_____ is used to report incidents that are of national-level interest to the National Military Command Center (NMCC). | OPREP-3 Pinnacle | Navy Blue | Red-Cross | Text message
-Select the six programs of Brilliant on the Basics: | Career Development Boards, Sponsorship, Indoctrination, Recognition Programs, Ombudsman, Mentorship | Command PT Program, DAPA, SAPR, CMEO, Command EIWS program, MWR | STA-21, LDO Program, OCS Program, Blue to Green Program, Flying Warrant Program, Naval Acadamy | None of these
-_____ assists the executive officer in administering educational and advancement programs. | ESO | CSO | CMC | Admin department
-A Command Cyber Readiness Inspection (CCRI) is a 'quick look' methodology for conducting compliance validations or the COCOMs. | True | False
+_____ is used to report incidents that are of national-level interest to the National Military Command Center. | OPREP-3 Pinnacle | Navy Blue | Red-Cross | Text message
+Select the six programs of Brilliant on the Basics: | Career Development Boards, Sponsorship, Indoctrination, Recognition Programs, Ombudsman, Mentorship | Command PT Program, DAPA, SAPR, CMEO, Command EIWS program, MWR | STA-21, LDO Program, OCS Program, Blue to Green Program, Flying Warrant Program, Naval Academy | None of these
+_____ assists the executive officer in administering educational and advancement programs. | Educational Services Officer | Chief Security Officer | Command Master Chief | Admin department
+A Command Cyber Readiness Inspection is a 'quick look' methodology for conducting compliance validations or the COCOMs. | True | False
 _____ is used to inform the operational commander, or appropriate higher authority, of incidents not meeting OPREP-3 Navy Blue criteria. | OPREP-3 Navy Unit SITREP | OPREP-3 Command SITREP | Co Endorsed E-mail to COMTENTHFLT | White Pinnacle
