@@ -18,12 +18,14 @@ The Resources:
   Food and Water:
     Food - 100%
     Water - 100%
-    For these resources, random events and the player's progression along a preset
-    map will enable them to refresh their store of these supplies.  Both Food and Water
-    will decrement by a preset percentage every in-game day.
+    Both of these resources will deplete at the same rate.  The resource meters will
+    last a total of 14 in-game days.  These meters will be partially restored by 
+    eating or drinking things that the player collects on their way to safety.
   Sanity:
     Sanity - 100%
     A player's sanity will decrease or increase based on the decisions they make during
     the game.  Events that detract from a player's Sanity will usually benefit their
     other resources.  Events that benefit a player's Sanity will usually detract from
-    their other resources.
+    their other resources.  Sanity will begin to decrement after the player reaches one
+    of two points: they nearly die of starvation or dehydration, or they witness something
+    that breaks their will.  When a player's Sanity gets below 25%, bad things happen.  
