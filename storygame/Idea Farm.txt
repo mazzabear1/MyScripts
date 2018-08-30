@@ -1,0 +1,10 @@
+The Story:
+  Players will assume the role the lone survivor of a major earthquake in NY City.
+  The game will consist of a series of "days" where the players will be forced to
+  select reactions to a variety of scenarios both good and bad.  These scenarios
+  will add to - or take away from - their resources (water, food, and sanity).
+
+The Goal:
+  The  character learns of the continental impact of the earthquake.  Eventually,
+  the player will learn of two camps of survivors and will have to decide between
+  Denver, Colorado and Portland, Maine.  
