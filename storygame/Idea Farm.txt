@@ -1,3 +1,7 @@
+This document outlines the fundamentals of a project I will be working on.  Once
+the project is released, I will be posting my code and the developer platform name
+here so there's no reason to reinvent the wheel! kthanks.
+
 The Story:
   Players will assume the role the lone survivor of a major earthquake in NY City.
   The game will consist of a series of "days" where the players will be forced to
@@ -7,4 +11,19 @@ The Story:
 The Goal:
   The  character learns of the continental impact of the earthquake.  Eventually,
   the player will learn of two camps of survivors and will have to decide between
-  Denver, Colorado and Portland, Maine.  
+  Denver, Colorado and Portland, Maine.  If the hero of our story would run out of
+  water, food, or would go insane, the player would lose the game.
+
+The Resources:
+  Food and Water:
+    Food - 100%
+    Water - 100%
+    For these resources, random events and the player's progression along a preset
+    map will enable them to refresh their store of these supplies.  Both Food and Water
+    will decrement by a preset percentage every in-game day.
+  Sanity:
+    Sanity - 100%
+    A player's sanity will decrease or increase based on the decisions they make during
+    the game.  Events that detract from a player's Sanity will usually benefit their
+    other resources.  Events that benefit a player's Sanity will usually detract from
+    their other resources.
