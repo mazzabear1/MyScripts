@@ -36,10 +36,14 @@ The Events:
     player can tell the mugger has a large stash of supplies in his truck.  If the
     player could support the mugger, they may be able to barter for some supplies.  If
     the player chooses to save the victims life, the mugger has already taken the
-    victim's supplies, so he may ask for some from the player. 
+    victim's supplies, so he may ask for some from the player.
 
 The Consumables:
-
+  Item 1
+  Item 2
+  Item 3
+  Item 4
+  
 The Days:
   0.
     Eligible Events:
