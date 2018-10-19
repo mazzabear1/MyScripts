@@ -19,7 +19,7 @@ The Resources:
     Food - 100%
     Water - 100%
     Both of these resources will deplete at the same rate.  The resource meters will
-    last a total of 14 in-game days.  These meters will be partially restored by 
+    last a total of 14 in-game days.  These meters will be partially restored by
     eating or drinking things that the player collects on their way to safety.
   Sanity:
     Sanity - 100%
@@ -28,4 +28,36 @@ The Resources:
     other resources.  Events that benefit a player's Sanity will usually detract from
     their other resources.  Sanity will begin to decrement after the player reaches one
     of two points: they nearly die of starvation or dehydration, or they witness something
-    that breaks their will.  When a player's Sanity gets below 25%, bad things happen.  
+    that breaks their will.  When a player's Sanity gets below 25%, bad things happen.
+
+The Events:
+  TO SAVE OR NOT TO SAVES:
+    The player comes across a mugging.  Neither side have seen the player, yet.  The
+    player can tell the mugger has a large stash of supplies in his truck.  If the
+    player could support the mugger, they may be able to barter for some supplies.  If
+    the player chooses to save the victims life, the mugger has already taken the
+    victim's supplies, so he may ask for some from the player. 
+
+The Consumables:
+
+The Days:
+  0.
+    Eligible Events:
+  1.
+    Eligible Events:
+  2.
+    Eligible Events:
+  3.
+    Eligible Events:
+  4.
+    Eligible Events:
+  5.
+    Eligible Events:
+  6.
+    Eligible Events:
+  7.
+    Eligible Events:
+  8.
+    Eligible Events:
+  9.
+    Eligible Events:
