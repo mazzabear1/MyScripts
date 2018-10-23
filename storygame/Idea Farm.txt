@@ -31,7 +31,7 @@ The Resources:
     that breaks their will.  When a player's Sanity gets below 25%, bad things happen.
 
 The Events:
-  TO SAVE OR NOT TO SAVES:
+  TO SAVE OR NOT TO SAVE:
     The player comes across a mugging.  Neither side have seen the player, yet.  The
     player can tell the mugger has a large stash of supplies in his truck.  If the
     player could support the mugger, they may be able to barter for some supplies.  If
@@ -43,7 +43,7 @@ The Consumables:
   Item 2
   Item 3
   Item 4
-  
+
 The Days:
   0.
     Eligible Events:
